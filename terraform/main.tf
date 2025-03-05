@@ -8,4 +8,3 @@ provider "aws" {
   secret_key = var.secret_key
   token      = var.session_token
 }
-

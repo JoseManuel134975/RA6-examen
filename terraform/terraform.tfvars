@@ -1,4 +1,7 @@
 aws_region    = "us-east-1"
+ami_id        = "ami-064519b8c76274859"
+instance_type = "t2.micro"
+name          = "Debian-Apache"
 access_key    = "ASIA6NHFGQTNGJJDSYVR"
 secret_key    = "G12v8RGB3K7JA7vkHgmTMxpiv22Ditf8FvKDPybt"
 session_token = "IQoJb3JpZ2luX2VjELz//////////wEaCXVzLXdlc3QtMiJHMEUCIBdpoiItH6rAvvMwy8Qwo5Dd0XGfi9291x/KlyJZYjxNAiEAqTtydpf3WyqWh+9yJXyYERjNczOPqeLjNGPJlo56vGcqrwII9f//////////ARACGgw5OTA0NzA2MzY3NjIiDJcDbkPRkZ5ihMAzQyqDAnUNPf5ar55pitWj6rIBz3otGf5nImO5GqCxjyr0cS96eVCvwHGxheIqg2IZMx8oYngpjLg45dmJgig4QRRkuf/mJs5y5MtAQDkF4X4SZrkKnl+BEdghOsJvBs1LiHrJ/uQ+R4lfuAfvbfwRRm7j+f4nbc87IkG1EztYDvqyu8QKr8GL2I99gWqcjetPQtqMxKGO8U7PtYfmTGwXUkuFDcBkaepg7iYjUU9C8GE7Z/g1VhTIDkhbPptAPdOmuwCkgLQQR4JNzLnVy7q6BMENBxxyTPcyXlzIqv5OyGeEGjIn/7g7xs5AgAlazwVoMGcmwpkkGf30hoqmGnwZgt0HoalnsZowoL+dvgY6nQFzFT3zBJOz5ijQuA73RWj1BJaku03TN3MJbhIZ3DWZTcoZaaRzpYmb0ry4UVc4Z46i5QCMzQNhUBLyea3Wlwo9clTvso7x3XuiQNXqaPC1ujtnGrnQxFA3AS7w/UGShqYE1sONBg46dRUs5YtADJQJQHZ9CYDsY1ePucYr+OBwnzMLXzhl8VUBEd6RVFYbuhRzLeDKmyPjxx8Zi826"
