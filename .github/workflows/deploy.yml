@@ -13,20 +13,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Build
-        run: |
-          npm install -g jsdoc
-          jsdoc -r ./web/src -d ./out
-        # uses: andstor/jsdoc-action@v1
-        # with:
-        #   source_dir: ./web/src
-        #   recurse: true
-        #   output_dir: ./out
-        #   config_file: package.json
-        #   template: minami 
-        #   front_page: README.md
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "20"
 
+      - name: Install dependencies
+        run: npm install
 
+      - name: Ensure JSDoc is executable
+        run: chmod +x node_modules/.bin/jsdoc
+
+      - name: Generate documentation
+        run: npm run docs
 
   deploy:
     runs-on: ubuntu-latest
