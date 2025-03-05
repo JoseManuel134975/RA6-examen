@@ -20,7 +20,7 @@ jobs:
           recurse: true
           output_dir: ./out
           config_file: package.json
-          template: minami
+          template: minami 
           front_page: README.md
 
 
