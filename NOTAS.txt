@@ -1,0 +1,19 @@
+RA6 - Ejercicios 1 y 2:
+Teóricamente funciona tanto el bucket como la generación de documentación, pero no he probado nada
+por tiempo y problemas del portátil (va a pedales por la grabación). He estado cogiendo la mayoría
+de código de mi propio repositorio, el cual estuve haciendo ayer.
+En cuanto a la documentación, he probado y si funciona pero no hay archivos suficientes para crearla.
+Que recuerde solo hacía falta usar comentarios en el script pero parece que no es suficiente, aún así
+el "job" se ejecuta correctamente sin ningún error. He creado mi propio archivo porque no quería perder
+el tiempo con un proyecto de ReactJS sinceramente.
+
+
+RA1-RA2 - Ejercicio 1:
+Probé en mi casa y no entiendo porqué no funciona cuando supuestamente está todo bien. 
+Lo último que pensé fue que había algún problema de firewall en la propia instancia porque tengo 
+abiertos todos los puertos en AWS y el comando "tee" funciona con cada uno de los archivos de apache2 
+(sitios virtuales) porque lo probé en una máquina virtual. Es bastante raro.
+Solo hay un sitio virtual porque mi intención era intentar recuperar lo del primer trimestre, 
+no está en HTTPS y el redireccionamiento creo que está 
+correcto (no se si lo he entendido bien), pero como te he dicho no entra a la web cuando supuestamente
+está todo bien.
